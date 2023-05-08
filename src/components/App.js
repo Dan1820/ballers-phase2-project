@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import ShoppingList from "./ShoppingList";
 import Header from "./Header";
 import NavBar from "./NavBar";
 import Home from "./Home";
 import { Route, Routes } from "react-router-dom";
 import ItemForm from "./ItemForm";
+import ShoppingList from "./ShoppingList";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -26,11 +26,8 @@ function App() {
         <Route path="/" element={<Home />} />
 
         <Route path="/Searchgame" element={<ShoppingList />} />
-        <Route
-          path="/Addgame"
-          element={<ItemForm onAddItem={handleAddItem} games={games} />}
-        />
       </Routes>
+      {/* <ItemForm onAddItem={handleAddItem} games={games} /> */}
     </div>
   );
 }

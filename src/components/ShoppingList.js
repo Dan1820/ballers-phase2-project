@@ -38,7 +38,6 @@ function ShoppingList() {
 
   return (
     <div className="ShoppingList">
-      <ItemForm onAddItem={handleAddItem} games={games} />
       <Filter
         games={games}
         team={team}
@@ -54,6 +53,7 @@ function ShoppingList() {
           />
         ))}
       </ul>
+      <ItemForm onAddItem={handleAddItem} games={games} />
     </div>
   );
 }
