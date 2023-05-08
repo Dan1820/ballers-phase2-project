@@ -66,7 +66,8 @@
       "court": "KFC court",
       "location": "KOMAROCK",
       "results": "",
-      "notes": ""
+      "notes": "",
+      "isInCart": false
     },
     {
       "id": "GSLG06",
@@ -223,7 +224,8 @@
       "court": "KFC court",
       "location": "KOMAROCK",
       "results": "",
-      "notes": ""
+      "notes": "",
+      "isInCart": true
     },
     {
       "id": "GSLG17",
@@ -736,7 +738,7 @@
       "location": "KOMAROCK",
       "results": "",
       "notes": "",
-      "isInCart": true
+      "isInCart": false
     },
     {
       "id": "GSLG50",
